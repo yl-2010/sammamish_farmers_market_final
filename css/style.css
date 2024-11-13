@@ -1,0 +1,47 @@
+body {
+    background-color: #d4c5a3
+}
+
+.bgimg {
+    filter: blur(10px);
+}
+
+
+h1 {
+    font-family: "latienne-pro", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(48, 31, 10);
+    text-align: center;
+    font-size: 70px;
+}
+
+h2 {
+    font-family: "latienne-pro", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(230, 217, 202);
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(212, 203, 189);
+    text-align: left;
+    font-size: 25px;
+    text-indent: 30px;
+}
+
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(212, 203, 189);
+    text-align: left;
+    font-size: 20px;
+    text-indent: 30px;
+}
