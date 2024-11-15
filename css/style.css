@@ -49,4 +49,36 @@ p {
 .box {
     border-radius: 25px;
     background-color: rgba(63, 40, 18, 0.568);
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.box:hover {
+    border-radius: 25px;
+    background-color: rgba(33, 63, 18, 0.568);
+    padding: 20px;
+}
+
+
+
+
+
+.sepiaimg {
+    filter: sepia(1) brightness(90%) contrast(80%);
+    transition: 0.3s;
+}
+
+.sepiaimg:hover {
+    filter: sepia(0) brightness(100%) contrast(100%)
+}
+
+
+
+.logo {
+    filter: hue-rotate(0deg) contrast(90%);
+    transition: 2s;
+}
+
+.logo:hover {
+    filter: hue-rotate(340deg);
 }
