@@ -6,8 +6,13 @@ body {
     filter: blur(10px);
     position: absolute;
     z-index: -10001010;
+    width: 99%;
+
 }
 
+.first {
+    margin-top: 60px;
+}
 
 h1 {
     font-family: "latienne-pro", serif;
@@ -79,7 +84,7 @@ p {
 
 .logo {
     filter: hue-rotate(0deg) contrast(90%);
-    transition: 2s;
+    transition: .6s;
 }
 
 .logo:hover {
