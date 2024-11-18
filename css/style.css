@@ -11,7 +11,7 @@ body {
 }
 
 .first {
-    margin-top: 60px;
+    margin-top: 25px;
 }
 
 h1 {
@@ -33,13 +33,12 @@ h2 {
 }
 
 h3 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "latienne-pro", serif;
     font-weight: 100;
     font-style: normal;
-    color: rgb(212, 203, 189);
+    color: rgb(48, 31, 10);
     text-align: left;
     font-size: 25px;
-    text-indent: 30px;
 }
 
 
@@ -89,4 +88,27 @@ p {
 
 .logo:hover {
     filter: hue-rotate(340deg);
+}
+
+
+
+
+.navbox {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+    height: 40px;
+}
+
+.navtext {
+    color: (48, 31, 10);
+    text-align: center;
+    transition: 0.3s;
+    justify-self: center;
+    display: block;
+}
+
+.navtext:hover {
+    color: green;
 }
