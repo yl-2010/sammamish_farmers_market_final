@@ -121,12 +121,12 @@ p {
 }
 
 .navimg {
-    filter: hue-rotate(0deg);
+    filter: hue-rotate(0deg) brightness(100%);
     transition: 0.3s;
 }
 
 .navimg:hover {
-    filter: hue-rotate(90deg);
+    filter: hue-rotate(45deg) brightness(75%);
 }
 
 
