@@ -176,3 +176,20 @@ a:active {
 .main {
     color: rgb(48, 31, 10);
 }
+
+
+input {
+    border-radius: 25px;
+    outline: 0px;
+    border-style: none;
+    margin: 5px;
+    height: 40px;
+}
+
+textarea {
+    border-radius: 25px;
+    outline: 0px;
+    border-style: none;
+    margin: 5px;
+    height: 40px;
+}
