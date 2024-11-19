@@ -321,15 +321,21 @@
                 <br>
 
                 <form action="" id="name-form" style="text-align: center;">
-                    <input style="margin-right: 0px; width: 185px;" type="text" placeholder="    First Name"
-                        name="fname" id="fname">
-                    <input style="margin-left: 0px; width: 185px;" type="text" placeholder="    Last Name" name="lname"
+                    <input style="margin-right: 0px; width: 185px;" type="text" placeholder="First Name" name="fname"
+                        id="fname">
+                    <input style="margin-left: 0px; width: 185px;" type="text" placeholder="Last Name" name="lname"
                         id="lname"><br>
-                    <input style="width: 374px;" type="email" placeholder="    Your Email" name="email" id="age"><br>
-                    <textarea style="width: 374px; height: 200px;" type="text" placeholder="    Your Message"
-                        name="message" id="message"></textarea><br>
+                    <input style="width: 374px;" type="email" placeholder="Your Email" name="email" id="email"><br>
+                    <textarea style="width: 374px; height: 200px;" type="text" placeholder="Your Message" name="message"
+                        id="message"></textarea><br>
                 </form>
 
+                <input class="bt" type="button"
+                    style="justify-self: center; display: block; padding-left: 20px; padding-right: 20px; color: rgb(48, 31, 10);"
+                    value="Submit" onclick="respond();">
+                <br>
+                <h3 id="firsttext" style="text-align: center;" class="main"></h3>
+                <p id="respond" class="main" style="text-align: center;"></p>
 
 
             </div>
@@ -461,6 +467,8 @@
         </div>
 
     </div>
+
+    <script src="js/contact.js"></script>
 </body>
 
 </html>

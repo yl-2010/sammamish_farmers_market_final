@@ -184,6 +184,8 @@ input {
     border-style: none;
     margin: 5px;
     height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 textarea {
@@ -192,4 +194,19 @@ textarea {
     border-style: none;
     margin: 5px;
     height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bt {
+    background-color: white;
+    transition: 0.3s;
+    color: rgb(48, 31, 10);
+}
+
+.bt:hover {
+    background-color: rgba(33, 63, 18, 0.568);
+    color: wheat;
 }
