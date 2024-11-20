@@ -165,8 +165,8 @@ a:active {
 .foottext {
     color: rgb(48, 31, 10);
     text-indent: 0px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 100;
+    font-family: "latienne-pro", serif;
+    font-weight: 400;
     font-style: normal;
     text-align: left;
     font-size: 20px;
